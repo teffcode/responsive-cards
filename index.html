@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+  <title>Document</title>
+</head>
+<style>
+  .container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .card {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    overflow: hidden;
+    width: 100%;
+  }
+  .card__img {
+    display: block;
+    height: 280px;
+    object-fit: cover;
+    width: 100%;
+  }
+  h1 {
+    color: #6b76ff;
+    font-family: 'Baloo Bhaina', cursive;
+    letter-spacing: 1.3px;
+    text-align: center;
+  }
+</style>
+<body>
+  <h1>· RESPONSIVE CARDS ·</h1>
+  <div class="container">
+    <div class="card">
+      <img class="card__img" src="./assets/blueberry.jpg" alt="blueberry">
+    </div>
+    <div class="card">
+      <img class="card__img" src="./assets/strawberry.jpeg" alt="strawberry">
+    </div>
+    <div class="card">
+      <img class="card__img" src="./assets/lemon.jpeg" alt="lemon">
+    </div>
+    <div class="card">
+      <img class="card__img" src="./assets/coconut.jpeg" alt="coconut">
+    </div>
+    <div class="card">
+      <img class="card__img" src="./assets/apple.jpeg" alt="apple">
+    </div>
+    <div class="card">
+      <img class="card__img" src="./assets/banana.jpeg" alt="banana">
+    </div>
+    <div class="card">
+      <img class="card__img" src="./assets/kiwi.jpeg" alt="kiwi">
+    </div>
+    <div class="card">
+      <img class="card__img" src="./assets/orange.jpg" alt="orange">
+    </div>
+  </div>
+</body>
+</html>
